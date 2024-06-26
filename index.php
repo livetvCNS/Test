@@ -18,3 +18,17 @@ $date = $html->find(".fs-3" , 0);
 echo(json_encode($list , JSON_PRETTY_PRINT));
 
 ?>
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <?php
+   <p>$list</p>
+  ?>
+  </body>
+</html>
